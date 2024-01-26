@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 8px;
   padding: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -46,7 +46,7 @@ button {
   border: none;
   border-radius: 4px;
   box-sizing: border-box;
-  transition: background-color 0.3s, transform 0.2s;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
 }
 
 button {
@@ -58,6 +58,7 @@ button {
 button:hover {
   background-color: #27ae60;
   transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #resultado {
@@ -67,16 +68,4 @@ button:hover {
   border-radius: 8px;
   margin-top: 20px;
   min-height: 100px;
-}
-
-/* Estilos para o botão de cópia */
-#copiarBtn {
-  background-color: #3498db;
-  color: #fff;
-}
-
-@media (max-width: 768px) {
-  .container {
-    width: 95%;
-  }
 }
